@@ -98,3 +98,48 @@ img{
     width: 200px;
     height: 100px;
 }
+/* Alinhamento de texto */
+p.text-aligned{
+    text-align: right;
+}
+.container-center{
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-trough{
+    text-decoration: line-through;
+}
+a.remove-underline{
+    text-decoration: none;
+    color: red;
+}
+/* Text transform */
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+.spacing{
+    letter-spacing: 5px;
+}
+/* Fontes */
+.serif{
+    font-family: serif;
+}
+.sans-serif{    
+    font-family: sans-serif;
+}
+.monoespace{
+    font-family: monospace;
+}
+.coursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
