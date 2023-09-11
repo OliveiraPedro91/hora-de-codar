@@ -18,9 +18,13 @@ input{
     border-bottom: 1px solid #ccc;
     width: 400px;
 }
+.textarea{
+    padding: 10px 5px;
+}
 input[type="text"], input[type="number"], input[type="date"], input[type="file"]{
     width: 400px;
 }
+
 /* Page header */
 .header{
     height: 160px;
