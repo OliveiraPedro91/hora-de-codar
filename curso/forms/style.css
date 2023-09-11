@@ -7,3 +7,6 @@ div{
 div input, label{
     display: block;
 }
+.radio label .radio input, .radio span{
+    display: inline-block;
+}
