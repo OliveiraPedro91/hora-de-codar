@@ -43,3 +43,18 @@ input[type="text"], input[type="number"], input[type="date"], input[type="file"]
     position: relative; /* Colocando o position relative, temos como alterar o local do container usando os pixels positivos e negativo como abaixo; */
     top: -62px;
 }
+/* Form header */
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+.form-header p{
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 50px;
+}
