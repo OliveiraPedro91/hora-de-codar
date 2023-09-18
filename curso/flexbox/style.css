@@ -36,3 +36,13 @@ body{
 .center{
     justify-content: center;
 }
+.space-around{
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
+}
+.end{
+    justify-content: end;
+}
+/* align Itens */
