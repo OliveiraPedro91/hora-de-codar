@@ -198,8 +198,20 @@ nav{
     margin: 0 auto;
 }
 .searchdomain-container input[type="text"] {
-    width: 60px;
+    width: 60%;
     padding: 20px;
     font-size: 20px;
     margin-bottom: 25px;
 }
+.searchdomain-container input[type="submit"]{
+    background-color: #2cc76a;
+    padding: 15px 30px;
+    color: #fff; 
+    font-size: 20px;
+    cursor: pointer;
+    opacity: .7;
+}
+.searchdomain-container input[type="submit"]:hover{
+    opacity: 1;
+}
+
