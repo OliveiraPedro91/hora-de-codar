@@ -161,6 +161,45 @@ nav{
     font-weight: bold;
     color: #fff;
     background-color: #202b34;
-    padding: 50px;
+    padding: 50px 0;
 }
+.plan .plan-btn{
+    background-color: #2cc762;
+    color: #fff;
+    font: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+.plan .recommended{
+    background-color: #f45c57;
+}
+/* Surce domain */
 
+.searchdomain-container{
+    background-color: #34454e;
+    text-align: center;
+    padding: 5rem 0;
+}
+.searchdomain-container h2{
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.searchdomain-container p{
+    color: #d5d5d5;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.searchdomain-container input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.searchdomain-container input[type="text"] {
+    width: 60px;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
