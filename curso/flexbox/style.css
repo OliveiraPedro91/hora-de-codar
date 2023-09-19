@@ -125,3 +125,24 @@ body{
 .shrink .small {
     flex-shrink: 2;
 }
+/* Short Hand */
+.shorthand{
+    display: flex;
+}
+.shorthand .box{
+    width: auto;
+    flex: 1 1 50px;
+}
+.shorthand .different{
+    flex: 3 1 400px;
+}
+/* Align Self */
+.auto-alignment{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 3px solid purple;
+}
+.auto-alignment .different{
+    align-self: center;
+}
