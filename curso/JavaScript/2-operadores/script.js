@@ -21,3 +21,17 @@ console.log(12 * "asd");
 console.log(typeof NaN);
 
 // 4 - string
+console.log("Um texto");
+console.log('Mais um texto');
+console.log('13');
+
+console.log(typeof "Um texto");
+console.log(typeof '13');
+
+// 5 - simbolos especiais em string
+
+console.log("Testando a \nquebra de linha");
+
+console.log("Espaçamento de \t de tab na mesma linha");
+
+// Contatenação
