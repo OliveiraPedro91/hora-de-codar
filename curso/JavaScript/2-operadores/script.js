@@ -38,5 +38,35 @@ console.log("Espaçamento de \t de tab na mesma linha");
 
  console.log("Oi, "+ "tudo" + " bem?");
 
- //Interpolação(Template String)
- 
+ // 7 - Interpolação(Template String)
+console.log(`A soma de 2 + 2 é: ${2 + 2}`);
+
+console.log(`Podemos executar qualquer coisa aqui ${console.log("teste")}`);
+
+// 8 - Booleans
+
+console.log(true);
+
+console.log(5 > 20);
+console.log(30 > 10);
+console.log(typeof false);
+
+// 9 - Comparações
+console.log(5 <= 5);
+
+console.log(5 < 5);
+
+console.log(10 == 10);
+
+console.log(10 == 9);
+
+console.log(10 != 9);
+
+// 10 - Idêntico
+console.log(9 == "9");
+
+console.log(9 === "9");
+
+console.log(9 != "9");
+
+// 11 - Operadores Lógicos
