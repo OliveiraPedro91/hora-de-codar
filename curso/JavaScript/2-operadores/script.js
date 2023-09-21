@@ -34,4 +34,9 @@ console.log("Testando a \nquebra de linha");
 
 console.log("Espaçamento de \t de tab na mesma linha");
 
-// Contatenação
+// 6 - Contatenação
+
+ console.log("Oi, "+ "tudo" + " bem?");
+
+ //Interpolação(Template String)
+ 
