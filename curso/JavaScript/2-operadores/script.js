@@ -70,3 +70,22 @@ console.log(9 === "9");
 console.log(9 != "9");
 
 // 11 - Operadores Lógicos
+console.log(true && true);
+console.log(true && false);
+
+console.log(5 > 2 && 2 < 10);
+console.log(5 > 2 && "Matheus" === 1);
+console.log(5 > 2 || "Matheus" === 1);
+
+// 12 - Empty Values
+console.log(typeof null, typeof undefined);
+console.log(null === undefined);
+console.log(null == undefined);
+console.log(null == false);
+console.log(undefined == false);
+
+// 13 - Mudanças de tipos
+console.log(5 * null);
+console.log("teste" * "opa");
+console.log("10" + 1);
+console.log("10" - 1);
