@@ -34,14 +34,99 @@ console.log(_teste, $teste);
 
 // - 3 - prompt
 
-const age = prompt("Digite a sua idade: ");
+//const age = prompt("Digite a sua idade: ");
 
 //console.log(`Você tem ${age} anos.`);
 
 // - 4 - Alert
 
-alert("Testando");
+//alert("Testando");
 
-const z = 10;
+//const z = 10;
 
-alert (`O número é ${z}`);
+//alert (`O número é ${z}`);
+
+// 5 - Math
+
+console.log(Math.max(5, 2, 1, 10));
+
+console.log(Math.floor(5.14));
+
+// 6 - Console
+
+console.log("teste!");
+console.error("Erro!");
+
+console.warn("Aviso!");
+
+// 7 - IF
+const m = 10;
+
+if (m > 5){
+    console.log("M é maior que 5");
+}
+
+const user = "João"
+
+if(user === "João"){
+    console.log("O nome dele é João!")
+}
+if(user === "Maria"){
+    console.log("Olá Maria!");
+}
+
+console.log(user=== "João", user === "Maria");
+
+// 8 - else
+const loggedIn = false
+
+if(loggedIn){
+    console.log("Está autenticado!")
+} else{
+    console.log("Não está autenticado.")
+}
+
+const q = 10
+const w = 15
+
+if(q > 5 && w > 20){
+    console.log("Números mais alto")
+} else{
+    console.log("Os números mais baixos")
+}
+
+// 9 - else if
+
+if(1 > 2){
+    console.log("Teste");
+} else if(2 > 3){
+    console.log("Teste 2");
+} else if (5 > 1){
+    console.log("Agora sim!");
+}
+const userName = "Pedro"
+const userAge = 31
+
+if(userName === "João"){
+    console.log("Bem vindo João!");
+} else if(userName === "Pedro" && userAge === 31){
+    console.log("Olá Pedro, você tem 31 anos!");
+}else{
+    console.log("Nenhuma condição aceita!")
+}
+// 10 - while
+
+let p = 0 
+
+while(p < 5){
+    console.log(`Repetindo ${p}`)
+    p = p + 1;
+}
+
+//Loop infinito
+
+// let x = 10 
+
+// while(x > 5){
+//     console.log(`Imprimindo ${x}`)
+// }
