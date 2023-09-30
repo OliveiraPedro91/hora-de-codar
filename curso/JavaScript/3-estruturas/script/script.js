@@ -185,3 +185,4 @@ for(let s = 1; s < 10; s = s + 1){
     }
     console.log(s);
 }
+// 16 - switch
