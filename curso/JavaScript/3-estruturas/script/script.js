@@ -149,3 +149,39 @@ let r = 10
 for(r; r > 0; r = r - 1){
     console.log(`o r está dininuindo: ${r}`);
 }
+// 13 - identeção
+for(let u = 0; u < 10; u++){
+if(u * 2 > 10){
+        console.log(`Maior que 10! ${u}`)
+    } else{
+        if(u/2 === 0){
+            console.log("deu 0")
+        }
+    }
+}
+// 14 - Break
+for(let g = 20; g > 10; g--){
+    console.log(`O valor de g é: ${g}`);
+    if(g === 15){
+        console.log("O g é 15");
+        break;
+    }
+}
+
+for(let idade = 31; idade > 10; idade--){
+    console.log(`Sua idade é: ${idade}, você pode entrar`);
+    if(idade === 18){
+        console.log("Você não pode entrar, você é menor de idade.");
+        break;
+    }
+}
+// 15 - continue
+
+for(let s = 1; s < 10; s = s + 1){
+    // Operador de resto = %
+    if(s % 2 === 0){
+        console.log("Número par!");
+        continue;
+    }
+    console.log(s);
+}
