@@ -216,6 +216,7 @@ switch(l){
     case 10:
       console.log("L é 10!");
     default:
-        console.log("L não foi encontrado!")
+      console.log("L não foi encontrado!")
 }
 
+// 
