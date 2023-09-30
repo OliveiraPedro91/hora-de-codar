@@ -11,3 +11,10 @@ const minhaFuncaoEmVariavel = function () {
 }
 
 minhaFuncaoEmVariavel();
+
+function funcaoComParamentro(txt){
+    console.log(`Imprimindo ${txt}`);
+}
+
+funcaoComParamentro("Imprimindo alguma coisa");
+funcaoComParamentro("Outra função");
