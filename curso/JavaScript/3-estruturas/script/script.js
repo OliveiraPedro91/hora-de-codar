@@ -186,3 +186,19 @@ for(let s = 1; s < 10; s = s + 1){
     console.log(s);
 }
 // 16 - switch
+const job = "desenvolvedor"
+
+switch(job){
+    case "Advogado":
+        console.log("Você é um Advogado!")
+        break
+    case "Desenvolvedor":
+        console.log("Você é um Desenvolvedor!")
+        break
+    case "Médico":
+        console.log("Você é um Médico!")
+        break
+    case "Catador":
+        console.log("Você é um Catador!")
+        break
+}
