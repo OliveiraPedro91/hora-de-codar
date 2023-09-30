@@ -4,3 +4,10 @@ function minhaFunção(){
 }
 
 minhaFunção();
+minhaFunção();
+
+const minhaFuncaoEmVariavel = function () {
+    console.log("Função em variável")
+}
+
+minhaFuncaoEmVariavel();
