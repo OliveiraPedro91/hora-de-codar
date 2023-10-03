@@ -18,3 +18,13 @@ console.log(number["length"]);
 
 const myName = "Pedro";
 console.log(myName.length);
+
+// 4 - métodos
+const otherNumbers = [1, 2, 3];
+const allNumbers = number.concat(otherNumbers);
+console.log(allNumbers);
+
+const text = "Algum texto";
+console.log(text.toUpperCase());
+console.log(typeof text.toUpperCase);
+console.log(text.indexOf("g");)
