@@ -39,3 +39,18 @@ console.log(person);
 console.log(person.name);
 console.log(person.name.length);
 console.log(typeof person);
+
+// 6 - criando e deletando propriedades
+const car = {
+    engine: 1.0,
+    brand: "VW",
+    model: "Nivus",
+    km: 20000
+};
+console.log(car);
+
+car.doors = (4);
+console.log(car);
+
+delete car.km;
+console.log(car);
