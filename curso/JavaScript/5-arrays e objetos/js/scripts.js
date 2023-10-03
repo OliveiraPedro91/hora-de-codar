@@ -54,3 +54,9 @@ console.log(car);
 
 delete car.km;
 console.log(car);
+
+// 7 - mais sobre objetos
+const onj = {
+    a: "teste", b: true,
+};
+console.log(obj instanceof Object);
