@@ -127,3 +127,31 @@ const greeting = (name) =>{
 
 greeting();
 greeting("Pedro");
+
+// 8 - valor defaut
+
+const customGreeting = (nome, greet = "Olá") => {
+    return `${greet}, ${nome}!`;
+};
+
+console.log(customGreeting("Pedro"));
+console.log(customGreeting("João", "Bom dia"));
+
+const repeatText = (text, repeat = 2) =>{
+    for(let i = 0; i < repeat; i++){
+        console.log(text);
+    }
+};
+repeatText("testando");
+repeatText("Agora repete 5 vezes", 5);
+
+// 9 - closure
+function someFunction(){
+    let txt = "Alguma coisa"
+
+    function display(){
+        console.log(txt)
+    }
+    display()
+}
+someFunction();
