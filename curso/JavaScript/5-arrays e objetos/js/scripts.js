@@ -30,3 +30,6 @@ console.log(typeof text.toUpperCase);
 console.log(text.indexOf("g"));
 
 // 5 - object literals
+const person = {
+    
+}
