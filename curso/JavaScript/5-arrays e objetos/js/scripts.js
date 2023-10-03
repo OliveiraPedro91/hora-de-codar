@@ -31,5 +31,11 @@ console.log(text.indexOf("g"));
 
 // 5 - object literals
 const person = {
-    
-}
+    name: "Pedro", 
+    age: 31,
+    job: "Programador"
+};
+console.log(person);
+console.log(person.name);
+console.log(person.name.length);
+console.log(typeof person);
