@@ -27,4 +27,6 @@ console.log(allNumbers);
 const text = "Algum texto";
 console.log(text.toUpperCase());
 console.log(typeof text.toUpperCase);
-console.log(text.indexOf("g");)
+console.log(text.indexOf("g"));
+
+// 5 - object literals
