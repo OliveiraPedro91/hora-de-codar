@@ -184,3 +184,21 @@ const untilTen = (n, m) => {
 }
 
 untilTen(200, 5);
+
+// infite recursion
+function run(){
+    console.log("Executando...");
+    run()
+}
+run()
+
+function factorial (x){
+    if(x === 0){
+        return 1
+    } else{
+        return x * factorial(x - 1)
+    }
+}
+const num = 6
+const restult = factorial (num)
+console.log(`O fatorial do número ${num} é ${result}`);
