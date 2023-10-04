@@ -68,3 +68,34 @@ const obj2 = {
 Object.assign(obj2, obj);
 console.log(obj2);
 console.log(obj);
+
+// 8 - conhecendo melhor os objetos
+console.log(Object.keys(obj));
+console.log(Object.keys(obj2));
+
+// 9 - Mutação
+const a={
+    name: "Pedro",
+};
+
+const b = a;
+console.log(a);
+console.log(b);
+
+console.log(a===b);
+
+a.age=31;
+console.log(b);
+
+// 10 - Loops em arrays
+const users = ["Matheus", "Joao", "Pedro", "Miguel"]
+
+for (let i = 0; i < users.length; i++){
+    console.log(`Listando o usuário: ${users[i]}`);
+}
+
+// 11 - push e pop
+const array = ["a", "b", "c"];
+array.push("d");
+console.log(array);
+console.log(array.lenght);
