@@ -99,3 +99,16 @@ const array = ["a", "b", "c"];
 array.push("d");
 console.log(array);
 console.log(array.lenght);
+
+// 12 - shift e unshift
+const letters = ["a", "b", "c"]
+const letter = letters.shift();
+console.log(letter);
+console.log(letters);
+
+letters.unshift("p", "q", "e");
+letters.unshift("z");
+
+console.log(letters);
+
+// 13 - 
