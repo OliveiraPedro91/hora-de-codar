@@ -8,8 +8,8 @@ console.log(itens);
 console.log(typeof itens);
 
 // 2 - Mais sobre arrays
-// const arr = ["primeiro item", "segundo item","terceiro item","quarto item"]
-// console.log(arr[2]);
+const arr = ["primeiro item", "segundo item","terceiro item","quarto item"]
+console.log(arr[2]);
 
 // 3 - propriedades
 const number = [5, 3, 7]
@@ -102,7 +102,7 @@ console.log(array.lenght);
 
 // 12 - shift e unshift
 const letters = ["a", "b", "c"]
-const letter = letters.shift();
+const letter = letters.shift( );
 console.log(letter);
 console.log(letters);
 
