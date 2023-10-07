@@ -110,3 +110,15 @@ letters.unshift("p", "q", "e");
 letters.unshift("z");
 
 console.log(letters);
+
+// 13 - indexOf e LastIndexOf
+const myElements = ["Morango", "maça", "Abacate"];
+console.log(myElements.indexOf("Maça"));
+console.log(myElements[1]);
+
+// 14- Slice
+const testSlice = ["a", "b", "c", "d", "e", "f"]
+const subArray = testSlice.slice(2,4);
+
+console.log(subArray);
+console.log(testSlice);
