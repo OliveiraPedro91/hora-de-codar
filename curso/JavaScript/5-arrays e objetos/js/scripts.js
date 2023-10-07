@@ -130,5 +130,13 @@ nums.forEach ((numero) =>{
 });
 
 const posts = [
-    {title: "Primeiro post", category}
-]
+    {title: "Primeiro post", category: "PHP"},
+    {title: "Segundo post", category: "JavaScript"},
+    {title: "Terceiro post", category: "Python"}
+];
+
+posts.forEach((post) => {
+    console.log(`Exibindo post: ${post.title}, da categoria: ${post.category}`);
+});
+
+// 16 - 
