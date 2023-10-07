@@ -122,3 +122,13 @@ const subArray = testSlice.slice(2,4);
 
 console.log(subArray);
 console.log(testSlice);
+ 
+// 15 - forEach
+const nums = ["1", "2", "3", "4", "5"] ;
+nums.forEach ((numero) =>{
+    console.log(`O número é ${numero}`);
+});
+
+const posts = [
+    {title: "Primeiro post", category}
+]
