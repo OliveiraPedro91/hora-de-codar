@@ -147,4 +147,7 @@ console.log(brands.includes("Renaut"))
 if(brands.includes("BMW")){
     console.log("Há carros da marca BMW!");
 }
+if(brands.includes("VW")){
+    console.log("Há carros da marca VW!");
+}
 
