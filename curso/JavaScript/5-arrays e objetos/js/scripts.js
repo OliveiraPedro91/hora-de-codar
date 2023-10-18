@@ -237,4 +237,7 @@ const myList = ["Aviao", "submarino", "carro"]
 const[veiculoA, veiculoB, veiculoC] = myList;
 console.log(veiculoA, veiculoB, veiculoC);
 
-// 27 - 
+// 27 - JSON
+
+const myJson = '{"name": "Pedro", "age": 31, "skills": ["PHP", "JavaScript", "Python"]}'; 
+console.log(myJson)
