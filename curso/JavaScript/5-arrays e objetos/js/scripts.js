@@ -167,3 +167,9 @@ console.log(trimTest.length)
 console.log(trimTest.trim().trim);
 
 // 19 - padStart
+const testePadStart = "1";
+
+const newNumber = testePadStart.padStart(5, "0");
+
+console.log(testePadStart);
+console.log(newNumber);
