@@ -173,3 +173,8 @@ const newNumber = testePadStart.padStart(5, "0");
 
 console.log(testePadStart);
 console.log(newNumber);
+
+const testePadEnd = newNumber.padEnd(10, "0");
+console.log(testePadEnd);
+
+// 20 - split
