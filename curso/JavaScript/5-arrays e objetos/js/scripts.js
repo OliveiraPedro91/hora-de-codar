@@ -151,3 +151,8 @@ if(brands.includes("VW")){
     console.log("Há carros da marca VW!");
 }
 
+// 17 - reverse
+const reverseTest = [1, 2, 3, 4, 5]
+
+reverseTest.reverse();
+console.log(reverseTest);
