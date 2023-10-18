@@ -165,3 +165,5 @@ console.log(trimTest.trim());
 
 console.log(trimTest.length)
 console.log(trimTest.trim().trim);
+
+// 19 - padStart
