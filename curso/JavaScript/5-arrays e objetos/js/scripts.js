@@ -241,3 +241,8 @@ console.log(veiculoA, veiculoB, veiculoC);
 
 const myJson = '{"name": "Pedro", "age": 31, "skills": ["PHP", "JavaScript", "Python"]}'; 
 console.log(myJson)
+
+// 28 - Json para objeto e objeto para Json
+
+const myObject = JSON.parse(myJson);
+console.log(myObject);
