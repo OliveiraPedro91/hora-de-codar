@@ -113,3 +113,15 @@ class Caminhao{
 const scania = new Caminhao(6, "Vermelha");
 console.log(scania);
 scania.descreverCaminhao();
+
+// 11 - override
+class humano{
+    constructor(nome, idade){
+        this.nome = nome,
+        this.idade = idade
+    }
+}
+
+const pedro = new humano("Pedro", 31);
+console.log(pedro);
+
