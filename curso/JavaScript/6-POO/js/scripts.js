@@ -28,3 +28,19 @@ console.log(pessoa.getNome());
 const text = "asd"
 
 console.log(Object.getPrototypeOf(text));
+
+// 4 - Mais sobre prototypes
+const myObject ={
+    a: "b"
+};
+
+console.log(Object.getPrototypeOf(myObject));
+
+console.log(Object.getPrototypeOf(myObject)=== Object.prototype);
+
+const mySecondObject = Object.create(myObject);
+console.log(mySecondObject);
+console.log(mySecondObject.a);
+console.log(Object.getPrototypeOf(mySecondObject)===myObject);
+
+// 
