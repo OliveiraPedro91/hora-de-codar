@@ -72,3 +72,12 @@ console.log(bob);
 const jack = criarCachorro("Jack", "Poodle");
 console.log(jack);
 
+// 7 - funções como classe
+
+function Cachorro(nome, raca){
+    this.nome = nome
+    this.raca = raca
+}
+
+const husky = new Cachorro("Ozzy", "Husky")
+console.log(husky);
