@@ -83,10 +83,18 @@ const husky = new Cachorro("Ozzy", "Husky")
 console.log(husky);
 
 // 8 - métodos na funcao construtora
-cachorro.prototype.uivar = function(){
-    console.log("Auuuuuuu")
-};
-console.log(Cachorro);
-husky.uivar();
+//cachorro.prototype.uivar = function(){
+//    console.log("Auuuuuuu")
+//};
+//console.log(Cachorro);
+//husky.uivar();
 
-// 9 - 
+// 9 - classes es6
+class CachorroClasse{
+    constructor(nome, raca){
+        this.nome = nome
+        this.raca = raca
+    }
+}
+const jeff = new CachorroClasse("Jeff", "Labrador")
+console.log(jeff);
