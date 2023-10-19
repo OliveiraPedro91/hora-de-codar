@@ -88,3 +88,5 @@ cachorro.prototype.uivar = function(){
 };
 console.log(Cachorro);
 husky.uivar();
+
+// 9 - 
