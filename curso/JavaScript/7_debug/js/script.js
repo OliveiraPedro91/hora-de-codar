@@ -18,4 +18,20 @@ for(let i = 0; i < b; i++){
 }
 
 // 3 - debugger
-debugger;
+//debugger;
+// 4 - tratamento de dados
+function checkNumber(n){
+    const result = Number(n);
+
+    if (Number.isNaN(result)){
+        console.log("Valor Incorreto!");
+        return;
+    }
+    
+    console.log("Valor correto!");
+    return result;
+}
+checkNumber(5);
+checkNumber("10");
+checkNumber({});
+checkNumber("teste");
