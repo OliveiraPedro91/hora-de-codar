@@ -69,3 +69,5 @@ function checkArray(arr){
         console.log(`O array tem ${arr.length} elementos`);
     }
 }
+checkArray([1, 2, 3]);
+
