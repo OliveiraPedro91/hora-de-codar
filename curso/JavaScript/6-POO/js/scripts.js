@@ -162,3 +162,20 @@ console.log(myPost);
 console.log(myPost.exibirTitulo);
 
 myPost.adicionarTags = "Programação, JavaScript, Java"
+
+// 14 - Herança
+class mamifero{
+    constructor(patas){
+        this.patas = patas
+    }
+}
+class Lobo extends mamifero{
+    constructor(patas, lobo){
+        super(patas,patas)
+    }
+}
+const shark = new Lobo(4, "Shark");
+console.log(shark);
+
+// 15 - instanceof
+console.log(shark instanceof Lobo)
