@@ -1,2 +1,3 @@
 // 1 - Movendo-se pelo DOM
 console.log(document.body);
+console.log(document.body.childNodes)
