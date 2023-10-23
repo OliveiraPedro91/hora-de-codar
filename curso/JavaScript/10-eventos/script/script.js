@@ -83,4 +83,27 @@ input.addEventListener("focus", (e) => {
 input.addEventListener("blur", (e) => {
     console.log("saiu no input")
 })
+// 11 - evento de carregamento
+window.addEventListener("Load", () => {
+    console.log("A página carregou!");
+});
 
+window.addEventListener("beforeunload", (e) =>{
+    e.preventDefault();
+    e.returnValue = "teste";
+})
+
+// 12 - debouce
+const debouce = (f, delay) => {
+    let timeout
+
+    return(... argumets) => {
+        if(timeout){
+            clearTimeout(timeout)
+        }
+
+        timeout = setTimeout(() =>{
+            f.apply(arguments)
+        }, delay)
+    }
+}
