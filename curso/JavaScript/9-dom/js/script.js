@@ -13,7 +13,7 @@ const title = document.getElementById ("title")
 console.log(title)
 
 // 4 - selecionando por Class
-const products = document.getElementsByClassName("Produtc")
+const products = document.getElementsByClassName("Product")
 console.log(products)
 
 // 5 - selecionando os elementos por CSS
@@ -56,8 +56,29 @@ mainContainer.appendChild(h3)
 
 // 10 - trabalhando com atributos
 const firstLink = navLinks.querySelector("a");
-console,log(firstLink);
+console.log(firstLink);
 firstLink.setAttribute("href", "https://www.google.com");
 
 console.log(firstLink.getAttribute("href"));
 firstLink.setAttribute("target", "_blank")
+
+// 11 - altura e largura
+const footer = document.querySelector("footer")
+
+console.log(footer.offsetWidth)
+console.log(footer.offsetHeight)
+
+// 12 - posição do elemento
+const product1 = products[0]
+
+console.log(product1.getBoundingClientRect())
+
+// 13 - CSS com js
+mainContainer.style.color = "red"
+mainContainer.style.backgroundColor = "#aaa"
+mainContainer.style.paddingBottom = "150px"
+
+// 14 - alterando os estilos de vários elementos
+for(const li of listItens){
+    li.style.backgroundColor = "red";
+}
