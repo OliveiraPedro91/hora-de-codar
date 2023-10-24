@@ -75,3 +75,22 @@ h2{
     color: #333;
     border-radius: 1rem;
 }
+
+#multiplication-operations .row{
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 0.5rem;
+    width: 150px;
+}
+
+#multiplication-operations .row:last-child{
+    border-bottom: 1px solid #ccc;
+}
+#multiplication-operations .result{
+    margin-left: 0.4rem;
+}
+
+
