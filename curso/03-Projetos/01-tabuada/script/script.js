@@ -1,5 +1,5 @@
 // Seleção de elementos
-const multiplicationForm = document.querySelector("#multiplication-form");
+const multiplicationForm = document.querySelector("#formulario-multiplicacao");
 const numberInput = document.querySelector("#number");
 const multiplicationInput = document.querySelector("#multiplicator");
 
