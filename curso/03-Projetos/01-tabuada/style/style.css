@@ -15,7 +15,7 @@ body{
 h2{
     margin-bottom: 1rem;
 }
-#multiplication-form{
+#formulario-multiplicacao{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,21 +28,21 @@ h2{
     color: #333;
 }
 
-.form-control{
+.controle-formulario{
     display: flex;
-    flex-direction: column;
+    flex-directcontrole-formulario
     align-items: center;
     width: 100px;
     margin: 0 1rem;
 }
 
-.form-control label{
+.controle-formulario label{
     margin-bottom: 0.6rem;
     font-size: 0.8rem;
     font-weight: bold;
 }
 
-.form-control input{
+.controle-formulario input{
     margin-bottom: 1rem;
     flex: 1;
     padding: 0.6rem 0.4rem;
