@@ -12,11 +12,11 @@ const criarTabela = (numero, multiplicador) => {
         const total = numero * i;
 
         const tabela = `
-        
-        
-        
-        
-        `
+            <div class="linha">
+                <div class="operacao">${numero} x ${i}</div>
+                <div class="resultado"> ${total} </div>
+            </div>
+        `;
     }
 
 
