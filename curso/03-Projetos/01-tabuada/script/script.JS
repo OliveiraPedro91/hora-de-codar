@@ -1,29 +1,46 @@
-// seleção de elementos
-const multiplicationForm = document.querySelector("#multiplication-form")// cria uma variavel para a div ID Multiplicator-form
-const numberInput = document.querySelector("#number") //Cria uma variavel para a div ID number
-const multiplicationInput = document.querySelector("#multiplicator") // Cria uma variavel para a div ID multiplicator
+// Seleção de elementos
+const multiplicationForm = document.querySelector("#multiplication-form");
+const numberInput = document.querySelector("#number");
+const multiplicationInput = document.querySelector("#multiplicator");
 
-const multiplicationTable = document.querySelector("#multiplication-operation") // cria a variavel para a tabela a partir da ID Multiplication-operation
+const multiplicationTitle = document.querySelector(
+  "#multiplication-title span"
+);
+const multiplicationTable = document.querySelector(
+  "#multiplication-operations"
+);
 
-// funções
-const criateTable = (number ,multiplicatorNumber) => { // Função que cria a tabela dos número selecionado e o multiplicador.
-    multiplicationTable.innerHTML = ""; // Função para zerar o código html dento da div
+// Funções
+const createTable = (number, multiplicatorNumber) => {
+  multiplicationTable.innerHTML = "";
 
-    for(i = 1; i <= multiplicatorNumber; i++){
-        const result = number * i;
-        console.log(result);
-    }
+  for (i = 1; i <= multiplicatorNumber; i++) {
+    const result = number * i;
+
+    const template = `<div class="row">
+            <div class="operation">${number} x ${i} = </div>
+            <div class="result">${result}</div>
+        </div>`;
+
+    const parser = new DOMParser();
+    const htmlTemplate = parser.parseFromString(template, "text/html");
+    const row = htmlTemplate.querySelector(".row");
+
+    multiplicationTable.appendChild(row);
+  }
+
+  multiplicationTitle.innerText = number;
 };
 
-// eventos
-multiplicationForm.addEventListener("submit", (e) => { //Criação dos eventos abaixo com a Arrow Function
-   
-    e.preventDefault() // Função para o botão submit não recarregar a página.
-    
-    const multiplicationNumber = +numberInput.value; // criação da variavel que vai receber a informação da caixa de input de número da multiplicação.
-    const multiplicatorNumber = +multiplicationInput.value; //criação da variavel que vai receber a informação da caixa de imput de número do multiplicador, a segunda caixa.
+// Eventos
+multiplicationForm.addEventListener("submit", (e) => {
+  e.preventDefault();
 
-    if(!multiplicationNumber || !multiplicatorNumber) return;// Essa condição é para não retornar nada caso uma das duas variaveis não recebam número nenhum.
+  const multiplicationNumber = numberInput.value;
 
-    //console.log(multiplicationNumber, multiplicatorNumber) // mostra no console o valor das duas váriaveis recém criadas para as duas imputs dos dois números da tabuada.
-})
+  const multiplicatorNumber = +multiplicationInput.value;
+
+  if (!multiplicationNumber || !multiplicatorNumber) return;
+
+  createTable(multiplicationNumber, multiplicatorNumber);
+});
