@@ -76,4 +76,5 @@ body{
 }
 .container.container.active #qr-code{
     opacity: 1;
+    font-family: ;
 }

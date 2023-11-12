@@ -8,7 +8,7 @@ function generateQrCode(){
     const qrCodeInputValue = qrCodeInput.value; 
     console.log(qrCodeInputValue)
     if (!qrCodeInputValue) return;
-    qrCodeBtn.innerText = "Gerando código...";
+    qrCodeBtn.innerText = "Gerando seu QR Code...";
 
     qrCodeImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrCodeInputValue}`
 
