@@ -12,9 +12,26 @@ function generateQrCode(){
 
     qrCodeImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrCodeInputValue}`
 
-    container.classList.add("active");
+    qrCodeImg.addEventListener("load",() =>{
+        container.classList.add("active");
+        qrCodeBtn.innerText = "Código criado!";
+    })
 
 }
 qrCodeBtn.addEventListener("click", () => {
     generateQrCode();
 });
+
+qrCodeInput.addEventListener("keydown", (e) => {
+    if (e.code === "Enter"){
+        generateQrCode();
+    };
+});
+
+// limpar area do QR code
+qrCodeInput.addEventListener("keyup", ()=>{
+    if (!qrCodeInput.value){
+        container.classList.remove("active");
+        qrCodeBtn.innerText = "Gerar QR Code.";
+    }
+})
