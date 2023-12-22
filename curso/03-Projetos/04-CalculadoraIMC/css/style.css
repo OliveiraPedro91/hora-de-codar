@@ -12,8 +12,8 @@ body{
     min-height: 100vh;
     color: white;
 }
-.hiden{
-    display: none ;
+.hide{
+    display: none;
 }
 .container{
     min-width: 400px;
