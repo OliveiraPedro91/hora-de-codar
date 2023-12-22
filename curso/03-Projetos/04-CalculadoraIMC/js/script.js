@@ -49,7 +49,7 @@ const clearBtn = document.querySelector("#clear-btn");
 // funçoes
 function createTable(data){
     data.forEach(item =>{
-        const div = document.createElement("div")
+        const div = document.createElement("div");
         div.classList.add("table-data");
 
         const classification = document.creatElement("p")
