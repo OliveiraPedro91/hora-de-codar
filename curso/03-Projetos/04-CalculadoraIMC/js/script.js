@@ -143,8 +143,8 @@ const data = [
         imcInfo.classList.add("good");
         break;
       case "Sobrepeso":
-        imcNumber.classList.add("low");
-        imcInfo.classList.add("low");
+        imcNumber.classList.add("");
+        imcInfo.classList.add("");
         break;
       case "Obesidade":
         imcNumber.classList.add("medium");
